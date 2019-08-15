@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<defs>
+		<image width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAFdQTFRFAAAAcK9QfbBQfbBQfbFRe65RfK9QfrBQfa9QfLFQeq9Qfq9Qfa5RfbBQfrFQfa5MfbFQfa9QfbBQeK9QfK9QfrFQfrBRd6pEfbFQfq9Qe61KfbFQfrBQubwXhwAAAB10Uk5TABCfr9BfQMVgfzCQP7+gL8BwxiBQ4dMPj4AfsM/sMaMoAAAAcklEQVR4nGWP2RKAIAhFkWyR0hbT1v//znBaZCYeGDhw5wKAwkKBDF1WtSSNASBJ2o4T2QxcAv2QwVhyPwmJ522cpQtrVPACqLjcNt48whnZJhKF5nV3azolUL7H4SP/yGb3u7D0jjQmhE78dJw2tvCPC7ouA67jZoG0AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="б1">
+		<g id="header">
+			<use id="phone" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

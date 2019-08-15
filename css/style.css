@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
 .container{
     max-width: 1170px;
     padding-left: 15px;
@@ -14,4 +18,31 @@
 .header__text{
     margin-right: auto;
     margin-left: 30px;
+    color: #9a9a9a;
+    font-size: 16px;
+}
+.header__phone a{
+    text-decoration: none;
+    position: relative;
+
+}
+.header__phone a:before{
+    content: '';
+    background-image: url(../images/phone.svg);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -27px;
+    top: 3px;
+}
+.header__phone-number{
+    font-weight: 500;
+    color: #303030;
+    font-size: 20px;
+}
+.header__phone-text{
+    font-size: 12px;
+    color: #9a9a9a;
+    text-align: right;
+    padding-top: 3px;
 }
