@@ -1,13 +1,17 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 .container{
-    max-width: 1170px;
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 .header__inner{
     display: flex;
@@ -24,16 +28,15 @@ body{
 .header__phone a{
     text-decoration: none;
     position: relative;
-
 }
-.header__phone a:before{
+.header__phone a::before{
     content: '';
     background-image: url(../images/phone.svg);
     width: 15px;
     height: 15px;
     position: absolute;
     left: -27px;
-    top: 3px;
+    top: 18px;
 }
 .header__phone-number{
     font-weight: 500;
@@ -46,6 +49,7 @@ body{
     text-align: right;
     padding-top: 3px;
 }
+
 
 .top{
     margin-bottom: 75px;
@@ -75,7 +79,7 @@ body{
     width: 100%;
 }
 .top__inner-suptitle{
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 25px;
     font-weight: 700;
     font-size: 14px;
@@ -87,15 +91,13 @@ body{
     font-size: 60px;
     font-weight: 600;
     margin-bottom: 40px;
-    color: #fff;
-    
+    color: #fff; 
 }
 .top__inner-text{
-    margin-bottom: 90px;
+    margin-bottom: 73px;
     color: #fff;
     font-size: 18px;
     line-height: 24px;
-
 }
 .top-form{
     background-color: #fff;
@@ -116,7 +118,7 @@ body{
     margin-bottom: 35px;
     font-weight: 700;
     text-transform: uppercase;
-    width: 200px;
+    width: 190px;
 }
 .top-form input{
     border: none;
@@ -126,8 +128,11 @@ body{
     outline: none;
     font-size: 14px;
     color: #000;
-    font-weight: 400;
-    width: 200px;
+    font-weight: 600;
+    width: 195px;
+}
+.top-form input + input{
+    margin-left: 29px;
 }
 .top-form input::placeholder{
     color: #c8dcba;
@@ -155,4 +160,41 @@ body{
     position: absolute;
     right: 60px;
     top: 25px;
+}
+
+.advantages__inner{
+    display: flex;
+    justify-content: space-around;
+}
+.advantages__item{
+    width: 240;
+    padding-left: 40px;
+    padding-top: 35px;
+    position: relative;
+}
+.advantages__item::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 5px solid rgba(126,178,82,.3);
+    top: 0;
+    left: 0;
+}
+.advantages__item-number{
+    color: #a4c58c;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 3px solid #a4c58c;
+    display: inline-block;
+}
+.advantages__item-number span{
+    font-size: 30px; 
+}
+.advantages__item-text{
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+
 }
