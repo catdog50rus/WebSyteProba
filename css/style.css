@@ -202,6 +202,7 @@ body{
 }
 
 .list{
+    
 
 }
 .list__title{
@@ -220,6 +221,7 @@ body{
     background-position: top center;
     background-size: cover;
     position: relative;
+    margin-top: -150px;
 
 }
 .list__inner{
@@ -272,6 +274,30 @@ body{
     top: 200px;
 }
 .item-3{
+    left: 200px;
+    top: 130px;
+}
+.item-4{
+    left: 250px;
+    top: 150px;
+}
+.item-5{
     left: 227px;
-    top: 15px;
+    top: 20px;
+}
+.item-6{
+    left: 180px;
+    top: 360px;
+}
+.item-7{
+    left: 270px;
+    top: 340px;
+}
+.item-8{
+    left: 227px;
+    top: 190px;
+}
+.item-9{
+    left: 270px;
+    top: 100px;
 }
