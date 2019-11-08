@@ -201,10 +201,7 @@ body{
     line-height: 24px;
 }
 
-.list{
-    
 
-}
 .list__title{
     font-weight: 700;
     color: #303030;
@@ -237,17 +234,54 @@ body{
     line-height: 20px;
     font-weight: 600;
     color: #303030;
-    padding: 20px 0;
+    padding: 26px 0;
     border-bottom: 1px solid #e6efde;
     text-transform: uppercase;
     cursor: pointer;
 
 }
-.tab span{
+.tab span, .tab-box__6-7 span, .tab-box__8-9 span{
     
     color: #a4c58c;
-    margin-right: 18px;  
+    margin-right: 18px; 
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600; 
 }
+.tab-box{
+    display: flex;
+    
+
+    
+}
+.tab-box__6-7{
+    border-right: 1px solid #e6efde;
+    width: 350px;
+    display: flex;
+    padding: 25px 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: none;
+ 
+}
+
+
+
+
+.tab-box__8-9{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: none;
+    width: 300px;
+    height: 91px;
+    
+}
+.tab-box__8-9 span{
+    margin: 18px;
+}
+
 .tab-item{
     display: none;
     font-weight: 700;
