@@ -202,7 +202,18 @@ body{
 }
 
 
+.list{
+    padding-top: 50px;
+}
+.list__content{
+    background-color: #f6f9f3;
+    padding-bottom: 30px;
+}
+.list__inner{
+    display: flex;
+}
 .list__title{
+    margin-left: 360px;
     font-weight: 700;
     color: #303030;
     font-size: 40px;
@@ -218,7 +229,7 @@ body{
     background-position: top center;
     background-size: cover;
     position: relative;
-    margin-top: -150px;
+    margin-top: -165px;
 
 }
 .list__inner{
@@ -228,6 +239,7 @@ body{
 .tabs{
     padding-right: 20px;
     width: 100%;
+    
 }
 .tab{
     font-size: 14px;
@@ -258,7 +270,7 @@ body{
     border-right: 1px solid #e6efde;
     width: 350px;
     display: flex;
-    padding: 25px 0;
+    padding: 23px 0;
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
@@ -266,21 +278,19 @@ body{
  
 }
 
-
-
-
 .tab-box__8-9{
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
     text-transform: none;
     width: 300px;
-    height: 91px;
+    height: 87px;
     
 }
 .tab-box__8-9 span{
     margin: 18px;
 }
+
 
 .tab-item{
     display: none;
@@ -334,4 +344,72 @@ body{
 .item-9{
     left: 270px;
     top: 100px;
+}
+.tabs__inner{
+    position: relative;
+}
+.tabs__content-form{
+    background-color: #f6f9f3;
+    padding: 20px;
+    max-width: 415px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 530px;
+    
+}
+.tabs__content-form form{
+    border: 1px solid #c8dcba;
+    position: relative;
+    width: 375px;
+}
+.tabs-form__title{
+    font-size: 16px;
+    line-height: 24px;
+    color: #303030;
+    font-family: "Montserrat";
+    font-weight: 400;
+    padding: 40px 28px 37px 50px;
+}
+.tabs-form__read{
+    font-size: 14px;
+    line-height: 24px;
+    color: #7eb252;
+    font-family: "Montserrat";
+    font-weight: 600;
+    position: absolute;
+    top: 135px;
+    left: 35px;
+    background-color: #f6f9f3;
+    padding: 0 10px;
+}
+.tabs__inner-but{
+    position: absolute;
+    top: 764px;
+    left: 0px;
+    width: 500px;
+    height: 70px;
+    background-color: #7eb252;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+.tabs__inner-button{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 20px;    
+    text-decoration: none;
+    
+}
+
+
+.popular__content{
+    margin: 290px 100px 200px;
+    
 }
