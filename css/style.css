@@ -7,6 +7,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
 .container{
     max-width: 1200px;
     padding-left: 15px;
@@ -209,6 +217,7 @@ body{
     background-color: #f6f9f3;
     padding-bottom: 30px;
     margin: 0 100px;
+    max-width: 1720px;
 }
 .list__inner{
     display: flex;
@@ -410,14 +419,20 @@ body{
 }
 
 
+
+
+.popular{
+    max-width: 1720px;
+}
 .popular__content{
     margin: 290px 100px 200px;
     display: flex;
     justify-content: space-between;
-    max-width: 1700px;
+    
 }
 .popular__img{
     width: 100%;
+    position: relative;
 }
 .popular__img-image{
     padding-right: 70px;
@@ -445,5 +460,67 @@ body{
     font-family: "Montserrat";
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 64px;
+    padding-bottom: 16px;
+}
+.popular__list-inner{
+    display: flex;
+    max-width: 500px;
+    margin-top: 52px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #303030;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+.popular__list-img{
+    margin-right: 31px;
+    background: url(../images/arr-rigth.png) no-repeat center;
+    width: 15px;
+}
+
+.popular__img-form{
+    background-color: #fff;
+    padding: 20px;
+    max-width: 600px;
+    height: 250px;
+    position: absolute;
+    top: 476px;
+    left: 275px;
+    
+    
+}
+.popular__form__inner{
+    border: 1px solid #c8dcba;
+    position: relative;
+    width: 560px;
+}
+.popular__form__text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #303030;
+    font-family: "Montserrat";
+    font-weight: 400;
+    padding: 40px 70px 35px 40px;
+    
+}
+.popular__form-but{
+    width: 560px;
+    height: 70px;
+    background-color: #7eb252;
+
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+.popular__form-button{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 20px;    
+    text-decoration: none;
 }
