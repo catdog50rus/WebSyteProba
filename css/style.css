@@ -252,12 +252,27 @@ a{
     width: 100%;
     
 }
+.tabs .active{
+    position: relative;
+}
+.tabs .active::after{
+    content: "";
+    position: absolute;
+    right: 25px;
+    width: 8px;
+    height: 13px;
+    background: url(../images/arr-rigth.png) no-repeat;
+
+}
+
 .tab{
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
     color: #303030;
-    padding: 26px 0;
+    padding: 26px 40px 26px 0;
+    display: flex;
+    align-items: center;
     border-bottom: 1px solid #e6efde;
     text-transform: uppercase;
     cursor: pointer;
@@ -396,17 +411,21 @@ a{
 }
 .tabs__inner-but{
     position: absolute;
-    top: 764px;
-    left: 0px;
-    width: 500px;
+    top: 180px;
+    left: -21px;
+}
+
+.tabs__inner-but button{
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    position: relative;
     height: 70px;
+    width: 500px;
     background-color: #7eb252;
     margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    padding: 24px;
-}
-.tabs__inner-button{
+
+    padding-right: 30px;
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 22px;
@@ -414,10 +433,21 @@ a{
     font-family: "Montserrat";
     font-weight: 700;
     text-transform: uppercase;
-    margin-right: 20px;    
-    text-decoration: none;
-    
+    cursor: pointer;
+
 }
+
+.tabs__inner-but button::after {
+    content: '';
+    background-image: url(../images/arrow.png);
+    width: 31px;
+    height: 9px;
+    position: absolute;
+    right: 95px;
+    top: 31px;
+}
+
+
 
 
 
@@ -476,7 +506,7 @@ a{
 }
 .popular__list-img{
     margin-right: 31px;
-    background: url(../images/arr-rigth.png) no-repeat center;
+    background: url(../images/arr-rigth.svg) no-repeat center;
     width: 15px;
 }
 
@@ -505,26 +535,34 @@ a{
     padding: 40px 70px 35px 40px;
     
 }
-.popular__form-but{
+.popular__form-but button{
     width: 560px;
     height: 70px;
     background-color: #7eb252;
-
+    border: none;
+    outline: none;
     margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    padding: 24px;
-}
-.popular__form-button{
+    position: relative;
+    padding-right: 75px;
+    
     font-size: 14px;
-    letter-spacing: 1px;
+   
     line-height: 22px;
     color: #fff;
     font-family: "Montserrat";
     font-weight: 700;
     text-transform: uppercase;
-    margin-right: 20px;    
+    cursor: pointer;
     text-decoration: none;
+}
+.popular__form-but button::after {
+    content: '';
+    background-image: url(../images/arrow.png);
+    width: 31px;
+    height: 9px;
+    position: absolute;
+    right: 45px;
+    top: 31px;
 }
 
 
@@ -538,6 +576,10 @@ a{
     display: flex;
     justify-content: space-between;
     margin: 0 100px;
+}
+.history__content-img {
+    max-width: 775px;
+    min-height: 920px;
 }
 .history__content-inner{
     color: #303030;
@@ -559,14 +601,15 @@ a{
     padding: 30px 0 60px 265px;
     
 }
-.history-inner__text ul{
-    max-width: 665px;
-}
-.history-inner__text li{
+
+.history-inner__text p{
     margin-top: 20px;
+    max-width: 665px;
+    
 }
 .history-inner__form{
-    margin: 45px 70px 0px 495px;
+    margin: 35px 70px 0px 495px;
+    min-width: 375px;
 }
 .history__form-text{
     font-size: 14px;
@@ -584,23 +627,25 @@ a{
     padding-bottom: 14px;
     border-bottom: 2px solid #c8dcba;
     outline: none;
-
+    width: 100%;
     font-size: 14px;
     
     color: #a8c48c;
     font-family: "Montserrat";
     font-weight: 400;
 }
-.history__form-but{
+
+.history__form-but button{
+    border: none;
+    outline: none;
     margin-top: 30px;
-    height: 50px;
+    position: relative;
+    height: 60px;
+    width: 100%;
     background-color: #7eb252;
     margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-}
-.history__form-button{
+    
+    padding-right: 30px;
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 22px;
@@ -608,15 +653,22 @@ a{
     font-family: "Montserrat";
     font-weight: 700;
     text-transform: uppercase;
-    margin-right: 20px;
-    text-decoration: none;
+    cursor: pointer;
+   
+}
+.history__form-but button::after {
+    content: '';
+    background-image: url(../images/arrow.png);
+    width: 31px;
+    height: 9px;
+    position: absolute;
+    right: 70px;
+    top: 26px;
 }
 
 
-.history__image{
-    max-width: 775px;
-    min-height: 920px;
-}
+
+
 
 
 
@@ -653,6 +705,11 @@ a{
 .autor-card__signature span{
     color: #ababab;
 }
+
+
+.proffit__content{
+    margin-bottom: 200px;
+}
 .proffit__title{
     margin-top: 195px;
     font-size: 40px;
@@ -666,11 +723,44 @@ a{
     margin: 100px 100px 0;
     max-width: 1920px;
     background-color: #f6f9f3;
-    min-height: 245px;
+    min-height: 380px;
+    position: relative;
 }
 .proffit__cards{
-    width: 1010px;
-    height: 350px;
-    margin: 0 350px;
-    background-color: #fff;
+        width: 1010px;
+        height: 330px;
+        margin: 0px 350px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        top: -50px;
+}
+.proffit__cards li{
+    width: 310px;
+    height: 310px;
+    border: 1px solid #a4c58c;
+    text-align: center;
+    
+    font-size: 150px;
+    letter-spacing: 8px;
+    line-height: 20px;
+    color: #f7f9f3;
+    font-family: "Montserrat";
+    font-weight: 900;
+    padding-top: 115px;
+}
+.profit__card-img{
+    margin-top: -50px;
+    max-height: 50px;
+}
+.proffit__cards li p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #303030;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding-top: 75px;
+    text-transform: uppercase;
 }
