@@ -22,6 +22,14 @@ a{
     padding-right: 15px;
     margin: 0 auto;   
 }
+
+.container-extended{
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+
+/*Header*/
 .header__inner{
     display: flex;
     justify-content: space-between;
@@ -58,8 +66,10 @@ a{
     text-align: right;
     padding-top: 3px;
 }
+/*</Header>*/
 
 
+/*<Section-01 Top>*/
 .top{
     margin-bottom: 75px;
 }
@@ -69,8 +79,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 1720px;
-    margin: 0 auto;
+ 
 }
 .top__wrapper{
     margin-top: -450px;
@@ -171,6 +180,11 @@ a{
     top: 25px;
 }
 
+/*</Section-01 Top>*/
+
+
+
+/*<Section-02 advantages>*/
 .advantages{
     margin-bottom: 200px;
 }
@@ -210,21 +224,17 @@ a{
     line-height: 24px;
 }
 
+/*</Section-02 advantages>*/
 
+
+
+
+/*<Section-03 List>*/
 .list{
     padding-top: 50px;
 }
-.list__content{
-    background-color: #f6f9f3;
-    padding-bottom: 30px;
-    margin: 0 100px;
-    max-width: 1720px;
-}
-.list__inner{
-    display: flex;
-}
-.list__title{
-    margin-left: 360px;
+.list__title {
+    margin-left: 275px;
     font-weight: 700;
     color: #303030;
     font-size: 40px;
@@ -232,6 +242,15 @@ a{
     max-width: 470px;
     margin-bottom: 30px;
 }
+.list__content{
+    background-color: #f6f9f3;
+    padding-bottom: 30px;
+
+}
+.list__inner{
+    display: flex;
+}
+
 .tabs__content{
     min-width: 500px;
     height: 689px;
@@ -447,17 +466,14 @@ a{
     top: 31px;
 }
 
+/*</Section-03 List>*/
 
 
+/*<Section-04 Popular>*/
 
 
-
-.popular{
-    max-width: 1920px;
-    margin-bottom: 280px;
-}
 .popular__content{
-    margin: 290px 100px 200px;
+    margin: 290px 0 270px;
     display: flex;
     justify-content: space-between;
     
@@ -564,18 +580,15 @@ a{
     right: 45px;
     top: 31px;
 }
+/*</Section-04 Popular>*/
 
 
 
+/*<Section-05 history>*/
 
-.history{
-    max-width: 1920px;
-    
-}
 .history__content{
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
 }
 .history__content-img {
     max-width: 775px;
@@ -590,7 +603,7 @@ a{
     font-size: 40px;
     line-height: 50px;
     font-weight: 700;
-    margin: 95px 0 0 265px;
+    margin: 95px 0 0 275px;
 }
 .history-inner__text{
     font-size: 16px;
@@ -598,7 +611,7 @@ a{
     font-weight: 400;
     background-color: #f6f9f3;
     margin-top: 30px;
-    padding: 30px 0 60px 265px;
+    padding: 30px 0 60px 275px;
     
 }
 
@@ -608,7 +621,7 @@ a{
     
 }
 .history-inner__form{
-    margin: 35px 70px 0px 495px;
+    margin: 35px 70px 0px 480px;
     min-width: 375px;
 }
 .history__form-text{
@@ -620,7 +633,7 @@ a{
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 30px;
-    margin-right: 40px;
+    
 }
 .history-inner__form input{
     border: none;
@@ -666,18 +679,18 @@ a{
     top: 26px;
 }
 
+/*</Section-05 history>*/
 
 
 
 
+/*<Section-05 profit>*/
 
-
-
-.proffit{
+.profit{
     margin-top: 150px;
 }
 
-.proffit__autor-card{
+.profit__autor-card{
     margin: 0 200px;
     border-bottom: 3px solid #c8dcba;
     border-top: 3px solid #c8dcba;
@@ -707,11 +720,11 @@ a{
 }
 
 
-.proffit__content{
+.profit__content{
     margin-bottom: 200px;
 }
-.proffit__title{
-    margin-top: 195px;
+.profit__title{
+    margin: 195px 0 100px;
     font-size: 40px;
     line-height: 50px;
     color: #303030;
@@ -719,14 +732,13 @@ a{
     font-weight: 700;
     max-width: 515px;
 }
-.proffit__content-cards{
-    margin: 100px 100px 0;
-    max-width: 1920px;
+.profit__content-cards{
+
     background-color: #f6f9f3;
     min-height: 380px;
     position: relative;
 }
-.proffit__cards{
+.profit__cards{
         width: 1010px;
         height: 330px;
         margin: 0px 350px;
@@ -736,7 +748,7 @@ a{
         position: absolute;
         top: -50px;
 }
-.proffit__cards li{
+.profit__cards li{
     width: 310px;
     height: 310px;
     border: 1px solid #a4c58c;
@@ -754,7 +766,7 @@ a{
     margin-top: -50px;
     max-height: 50px;
 }
-.proffit__cards li p{
+.profit__cards li p{
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 20px;
@@ -764,3 +776,62 @@ a{
     padding-top: 75px;
     text-transform: uppercase;
 }
+
+/*<Section-06 profit>*/
+
+
+
+
+/*<Section-07 composition>*/
+.composition__content{
+    margin-top: 250px;
+}
+.composition__content_cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.composition__card{
+    width: 270px;
+    height: 270px;
+    background-color: #f6f9f3;
+    border: 1px solid red;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.composition__card-number{
+    font-size: 14px;
+    line-height: 24px;
+    color: #a4c58c;
+    font-family: "Montserrat";
+    font-weight: 700;
+    transform: rotate(-90deg);
+    width: 50px;
+    height: 40px;
+}
+
+.composition__card-img{
+    
+}
+.composition__card-title{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #a4c58c;
+    font-family: "Montserrat";
+    font-weight: 400;
+    
+    width: 170px;
+    height: 15px;
+}
+
+
+
+
+
+
+/*</Section-07 composition>*/
