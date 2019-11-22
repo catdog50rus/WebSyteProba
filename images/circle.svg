@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10" height="10">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #a4c58c } 
+	</style>
+	<g id="б7">
+		<path id="пункт_2" class="shp0" d="M5.5 2C7.43 2 9 3.57 9 5.5C9 7.43 7.43 9 5.5 9C3.57 9 2 7.43 2 5.5C2 3.57 3.57 2 5.5 2Z" />
+	</g>
+</svg>
