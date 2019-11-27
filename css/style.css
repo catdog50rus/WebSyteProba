@@ -1022,3 +1022,69 @@ a{
 
 
 /*</Section-07 composition>*/
+
+
+/**/
+
+.reviews__title{
+    margin-top: 200px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #303030;
+    font-family: "Montserrat";
+    font-weight: 700;
+    width: 475px;
+    margin-bottom: 45px;
+}
+
+.reviews__tabs{
+    background-color: #f6f9f3;
+}
+.reviews__tabs-title{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #7eb252;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 25px 75px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.reviews__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.reviews__card{
+    margin-left: 75px;
+    margin-bottom: 60px;
+    
+    position: relative;
+    border: 1px solid black;
+    width: 467px;
+}
+.reviews__text{
+    padding-top: 25px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #9a9a9a;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+.reviews__text::after{
+    content: '';
+    background-color: #a4c58c;
+    width: 31px;
+    height: 3px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.reviews__client-name{
+    font-weight: 700;
+    padding-top: 20px;
+    color: #303030;
+}
